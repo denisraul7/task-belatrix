@@ -2,8 +2,22 @@ package com.belatrix.tech.task.data.validate.impl;
 
 import com.belatrix.tech.task.data.validate.ValidateEntryService;
 
+/**
+ * Class of implements method the ValidateEntryService
+ */
 public class ValidateEntryServiceImpl implements ValidateEntryService {
 
+	/**
+	 * Mthod for validate parameters of input in exceptions.
+	 * @param message  description.
+	 * @param valueFileParam boolean.
+	 * @param valueConsoleParam boolean.
+	 * @param valueDataBaseParam boolean.
+	 * @param valueMessageParam boolean.
+	 * @param valueErrorParam boolean.
+	 * @param valueWarningParam boolean.
+	 * @throws Exception error.
+	 */
 	@Override
 	public void validateValues(String message,
 														 boolean valueFileParam,

@@ -7,7 +7,10 @@ import java.util.Date;
 
 import static com.belatrix.tech.task.data.util.Constants.*;
 
-
+/**
+ * Class implement for interface CreateLogService.
+ * For methods business logic.
+ */
 public class CreateLogServiceImpl implements CreateLogService {
 
 	/**

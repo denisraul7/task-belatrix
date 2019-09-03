@@ -9,8 +9,16 @@ import java.util.Properties;
 
 import static com.belatrix.tech.task.data.util.Constants.*;
 
+/**
+ * Class children, for implement methods specific.
+ */
 public class H2Connection extends DataBaseConnection {
 
+	/**
+	 * Method open connection for database.
+	 * @param parameters info.
+	 * @return Statement.class
+	 */
 	@Override
 	public Statement newConnection(Map parameters) {
 

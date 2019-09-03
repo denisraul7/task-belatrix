@@ -1,5 +1,8 @@
 package com.belatrix.tech.task.data.logging;
 
+/**
+ * Class father in declared methods generic.
+ */
 public class LogsManagement {
 
 

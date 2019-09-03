@@ -6,6 +6,10 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Map;
 
+/**
+ * Class implement methods heredity of LogsManagement.
+ * Using polymorphism.
+ */
 public class LoggingDataBase extends LogsManagement {
 
 	private String message;
@@ -19,6 +23,9 @@ public class LoggingDataBase extends LogsManagement {
 		this.parameters = parameters;
 	}
 
+	/**
+	 * Method custom for logic specific of LoggingDataBase.
+	 */
 	@Override
 	public void insertLogs(){
 		System.out.println("operation logs initializer..");

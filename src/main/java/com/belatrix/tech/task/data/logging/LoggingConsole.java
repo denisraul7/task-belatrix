@@ -4,6 +4,10 @@ import java.util.logging.ConsoleHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/**
+ * Class implement methods heredity of LogsManagement.
+ * Using polymorphism.
+ */
 public class LoggingConsole extends LogsManagement {
 
 	private String message;
@@ -14,6 +18,9 @@ public class LoggingConsole extends LogsManagement {
 		this.logger = logger;
 	}
 
+	/**
+	 * Method custom for logic specific of LoggingConsole.
+	 */
 	@Override
 	public void insertLogs(){
 		System.out.println("operation logs initializer..");

@@ -6,6 +6,10 @@ import java.util.logging.FileHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/**
+ * Class implement methods heredity of LogsManagement.
+ * Using polymorphism.
+ */
 public class LoggingFile extends LogsManagement {
 
 	private String message;
@@ -18,6 +22,9 @@ public class LoggingFile extends LogsManagement {
 		this.logger = logger;
 	}
 
+	/**
+	 * Method custom for logic specific of LoggingFile.
+	 */
 	@Override
 	public void insertLogs(){
 		System.out.println("operation logs initializer..");

@@ -10,6 +10,14 @@ import com.belatrix.tech.task.data.validate.ValidateEntryService;
 import java.util.Map;
 import java.util.logging.Logger;
 
+/**
+ * Class implement functions of:
+ *  # Initializer constructor variables.
+ *  # Refactoring method void logMessage():
+ *      # Validate inputs
+ *      # Create message
+ *      # Registry message
+ */
 public class JobLoggerFinal {
 
 	private static boolean logToFile;
@@ -47,7 +55,6 @@ public class JobLoggerFinal {
 
 	public void logMessage(String message) throws Exception {
 
-			//Validate message
 			entryService.validateValues(message, logToConsole, logToFile,
 					logToDatabase, logMessage, logError, logWarning);
 			message = message.trim();
