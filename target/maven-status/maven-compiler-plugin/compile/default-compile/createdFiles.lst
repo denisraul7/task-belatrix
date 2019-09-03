@@ -1,0 +1,13 @@
+com\belatrix\tech\task\data\creating\impl\CreateLogServiceImpl.class
+com\belatrix\tech\task\data\validate\ValidateEntryService.class
+com\belatrix\tech\task\data\logging\LogsManagement.class
+com\belatrix\tech\task\data\connection\H2Connection.class
+com\belatrix\tech\task\data\logging\LoggingDataBase.class
+com\belatrix\tech\task\data\reference\JobLogger.class
+com\belatrix\tech\task\data\logging\LoggingConsole.class
+com\belatrix\tech\task\data\validate\impl\ValidateEntryServiceImpl.class
+com\belatrix\tech\task\data\connection\DataBaseConnection.class
+com\belatrix\tech\task\data\logging\LoggingFile.class
+com\belatrix\tech\task\data\util\Constants.class
+com\belatrix\tech\task\data\creating\CreateLogService.class
+com\belatrix\tech\task\data\reference\JobLoggerFinal.class
